@@ -272,3 +272,38 @@ i{
 .right{
   text-align: right;
 }
+
+p.white{
+  font-size: 18px;
+}
+@media (max-width: 767px){
+  .d-none{
+    display: unset !important;
+  }
+  .carousel-caption h3{
+    margin-top: 30px;
+    font-size: 2em;
+  }
+  h1.white{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 2em;
+  }
+  p.white{
+    text-align: center;
+  }
+  .photo-btn{
+    font-size: 12px;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 500px){
+    .carousel-caption h3{
+      font-size: 1.5em;
+      margin-top: 0px;
+    }
+    .carousel-item{
+      height: 55vh;
+    }
+}
