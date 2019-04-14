@@ -296,6 +296,10 @@ p.white{
     font-size: 12px;
     padding: 0 5px;
   }
+  iframe{
+    max-width: 750px !important;
+    width: 100%;
+  }
 }
 
 @media (max-width: 500px){
@@ -308,9 +312,19 @@ p.white{
     }
   .d-flex{
     flex-wrap:wrap;
+  }
+  iframe{
+    max-width: 480px !important;
+    width: 100%;
+  }
+
 }
 @media (max-width: 450px){
     .carousel-item{
       height: 65vh;
+    }
+    iframe{
+      max-width: 450px !important;
+      width: 100%;
     }
 }
