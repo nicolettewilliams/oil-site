@@ -307,3 +307,8 @@ p.white{
       height: 55vh;
     }
 }
+@media (max-width: 450px){
+    .carousel-item{
+      height: 65vh;
+    }
+}
