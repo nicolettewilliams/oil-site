@@ -306,6 +306,8 @@ p.white{
     .carousel-item{
       height: 55vh;
     }
+  .d-flex{
+    flex-wrap:wrap;
 }
 @media (max-width: 450px){
     .carousel-item{
